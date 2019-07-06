@@ -62,7 +62,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  if(sdfs){return "Sorry, we don't have a credit card on file for you."}
+  if(cardnumber){return }
   else
   {
     cart = []
