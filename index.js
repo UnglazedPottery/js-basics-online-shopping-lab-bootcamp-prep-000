@@ -32,7 +32,7 @@ function viewCart() {
     var array = []
     for( var i = 0; i < cart.length; i++)
     {
-      array.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
+      array.push(`${cart[i].itemName} at $${cart[i].itemPrice} `)
     }
     var array2 = array.slice(0, array.length - 1)
     return "In your cart, you have" + array2 + ", and " + array[array.length - 1] + "."
